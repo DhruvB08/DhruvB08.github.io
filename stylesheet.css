@@ -1,5 +1,9 @@
+html {
+	height:100%;
+}
+
 body {
-	background: linear-gradient(gray, white);
+	background: linear-gradient(white, gray);
 }
 
 #wrapper {
@@ -23,6 +27,11 @@ body {
 }
 
 .navBarItem {
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+html body table.navBar tbody tr td {
 	background-color: linear-gradient(to right, red, gray);
 	font-family: sans-serif;
 	cursor: pointer;
@@ -38,12 +47,13 @@ body {
 }
 
 #selfie {
-	width: 15vw;
-	clear: left;
+	float: right;
+	margin-top: -15vh;
+	margin-right: 2vw;
 }
 
 .info {
-	width: 70vw;
+	width: 82vw;
 	overflow: hidden;
-	background-color: white;
+	background: white;
 }
