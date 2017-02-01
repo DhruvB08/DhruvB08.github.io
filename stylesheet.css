@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(gray. white);
+	background: linear-gradient(gray, white);
 }
 
 #wrapper {
@@ -18,16 +18,19 @@ body {
 }
 
 .navBar {
-
+	width: 15vw;
+	float: right;
 }
 
 .navBarItem {
 	background-color: linear-gradient(to right, red, gray);
 	font-family: sans-serif;
+	cursor: pointer;
 }
 
 #homeInfo {
-
+	width: 50vw;
+	float: right;
 }
 
 .header {
@@ -35,9 +38,12 @@ body {
 }
 
 #selfie {
-
+	width: 15vw;
+	clear: left;
 }
 
 .info {
-
+	width: 70vw;
+	overflow: hidden;
+	background-color: white;
 }
