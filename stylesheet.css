@@ -39,13 +39,15 @@ body {
 html body table.navBar tbody tr td {
 	background: linear-gradient(to right, blue, white);
 	font-family: sans-serif;
-	cursor: pointer;
 	height: 5vh;
 }
 
 #homeInfo {
 	width: 50vw;
 	float: left;
+}
+
+.info p {
 	margin-left: 1vw;
 }
 
@@ -57,6 +59,11 @@ html body table.navBar tbody tr td {
 	float: right;
 	margin-top: 1vh;
 	margin-right: 2vw;
+}
+
+#selfie img {
+	width: 20vw;
+	height: 30vh;
 }
 
 .info {
