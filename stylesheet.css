@@ -23,23 +23,26 @@ body {
 
 .navBar {
 	width: 15vw;
-	float: right;
+	float: left;
 }
 
 .navBarItem {
 	text-decoration: none;
 	font-family: sans-serif;
+	color: white;
 }
 
 html body table.navBar tbody tr td {
-	background-color: linear-gradient(to right, red, gray);
+	background: linear-gradient(to right, blue, white);
 	font-family: sans-serif;
 	cursor: pointer;
+	height: 5vh;
 }
 
 #homeInfo {
 	width: 50vw;
-	float: right;
+	float: left;
+	margin-left: 1vw;
 }
 
 .header {
@@ -48,7 +51,7 @@ html body table.navBar tbody tr td {
 
 #selfie {
 	float: right;
-	margin-top: -15vh;
+	margin-top: 1vh;
 	margin-right: 2vw;
 }
 
