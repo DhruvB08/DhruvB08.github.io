@@ -49,6 +49,7 @@ html body table.navBar tbody tr td {
 
 .info p {
 	margin-left: 1vw;
+	margin-bottom: 0;
 }
 
 .header {
@@ -67,10 +68,13 @@ html body table.navBar tbody tr td {
 }
 
 .info {
-	width: 83vw;
+	width: 80vw;
 	overflow: hidden;
 	background: white;
-	height: 60vh;
+}
+
+.info ul {
+	margin-top: 0;
 }
 
 .projectLink {
@@ -78,27 +82,35 @@ html body table.navBar tbody tr td {
 }
 
 .linkDescript {
+	margin-top: 0;
+}
 
+.linkDescript2 {
+	margin-top: -2.5vh;
 }
 
 .contactItem {
-
+	margin-top: -1.75vh;
 }
 
 .contactLink {
 
 }
 
-.name {
-
+#name {
+	text-align: center;
+	margin-bottom: 0;
 }
 
 .introItems{
-
+	text-align: center;
+	margin-top: 0;
 }
 
 .resumeHeader {
-
+	margin-left: 1vw;
+	font-size: 3vh;
+	margin-bottom: 0;
 }
 
 .resumeInfo {
@@ -106,13 +118,13 @@ html body table.navBar tbody tr td {
 }
 
 .webLink {
-
+	margin-bottom: 0;
 }
 
 .tableStuff {
-
+	margin-left: 5vw;
 }
 
 .break {
-	
+
 }
