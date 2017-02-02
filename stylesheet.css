@@ -86,11 +86,11 @@ html body table.navBar tbody tr td {
 }
 
 .linkDescript2 {
-	margin-top: -2.5vh;
+	margin-top: 0;
 }
 
 .contactItem {
-	margin-top: -1.75vh;
+	margin-top: 0;
 }
 
 .contactLink {
@@ -114,7 +114,7 @@ html body table.navBar tbody tr td {
 }
 
 .resumeInfo {
-
+	margin-top: 0;
 }
 
 .webLink {
