@@ -32,6 +32,10 @@ body {
 	color: white;
 }
 
+.navBarItem:hover {
+	border-left: 2vw;
+}
+
 html body table.navBar tbody tr td {
 	background: linear-gradient(to right, blue, white);
 	font-family: sans-serif;
@@ -46,7 +50,7 @@ html body table.navBar tbody tr td {
 }
 
 .header {
-
+	margin-left: 1vw;
 }
 
 #selfie {
@@ -56,7 +60,8 @@ html body table.navBar tbody tr td {
 }
 
 .info {
-	width: 82vw;
+	width: 83vw;
 	overflow: hidden;
 	background: white;
+	height: 60vh;
 }
