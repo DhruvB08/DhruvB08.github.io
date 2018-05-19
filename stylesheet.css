@@ -1,0 +1,130 @@
+html {
+	height:100%;
+}
+
+body {
+	background: linear-gradient(white, gray);
+}
+
+#wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+#holder {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.banner {
+	width: 100%;
+	height: 90px;
+}
+
+.navBar {
+	width: 15vw;
+	float: left;
+}
+
+.navBarItem {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+}
+
+.navBarItem:hover {
+	border-left: 2vw;
+}
+
+html body table.navBar tbody tr td {
+	background: linear-gradient(to right, blue, white);
+	font-family: sans-serif;
+	height: 5vh;
+}
+
+#homeInfo {
+	width: 50vw;
+	float: left;
+}
+
+.info p {
+	margin-left: 1vw;
+	margin-bottom: 0;
+}
+
+.header {
+	margin-left: 1vw;
+}
+
+#selfie {
+	float: right;
+	margin-top: 1vh;
+	margin-right: 2vw;
+}
+
+#selfie img {
+	width: 20vw;
+	height: 30vh;
+}
+
+.info {
+	width: 80vw;
+	overflow: hidden;
+	background: white;
+}
+
+.info ul {
+	margin-top: 0;
+}
+
+.projectLink {
+
+}
+
+.linkDescript {
+	margin-top: 0;
+}
+
+.linkDescript2 {
+	margin-top: 0;
+}
+
+.contactItem {
+	margin-top: 0;
+}
+
+.contactLink {
+
+}
+
+#name {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.introItems{
+	text-align: center;
+	margin-top: 0;
+}
+
+.resumeHeader {
+	margin-left: 1vw;
+	font-size: 3vh;
+	margin-bottom: 0;
+}
+
+.resumeInfo {
+	margin-top: 0;
+}
+
+.webLink {
+	margin-bottom: 0;
+}
+
+.tableStuff {
+	margin-left: 5vw;
+}
+
+.break {
+
+}
