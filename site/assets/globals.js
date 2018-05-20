@@ -1,4 +1,5 @@
 function initialize() {
+	/*
 	document.getElementById('home').innerHTML = 'About Me';
 	document.getElementById('projects').innerHTML = 'Projects';
 	document.getElementById('contactMe').innerHTML = 'Contact Me';
@@ -11,7 +12,6 @@ function initialize() {
 	document.getElementById('proj1Title').innerHTML = 'My Personal Website';
 	document.getElementById('proj1Descript').innerHTML = 'This is my own personal website I made in a few hours as a side project. I decided it\'d be a good thing to do for the experience, and to put some of the languages and skills I\'ve picked up into practice. I will be going back to this and adding updates and changes every time I\'m free and learn something new, or have more ideas for it.';
 
-/*
 	document.getElementById('proj2LinkName').innerHTML = 'www.ruphisigmakappa.com';
 	document.getElementById('proj2Title').innerHTML = 'Phi Sigma Kappa Fraternity Website';
 	document.getElementById('proj2Descript').innerHTML = 'Created by four of us, all CS majors and brothers here at the Rutgers chapter of Phi Sigma Kappa. It\'s updated every semester now, and each of us adds our own changes and improvements whenever we want to work on it.';
@@ -45,9 +45,10 @@ function initialize() {
 
 	for (var key in dict) {
 		var elems = document.getElementsByClassName(key);
+		var item = dict[key];
 
-		for (i = 0; i < elems.length; i++) {
-			elems[i].innerHTML = dict[key];
+		for (const i = 0; i < elems.length; i++) {
+			elems[i].innerHTML = item;
 		}
 	}
 }
