@@ -2,43 +2,34 @@
 
 <html>
 <head>
-	<title>Dhruv Bhardwaj</title>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-	<!-- Favicon -->
+	<title id="projects"></title>
+	<link type="text/css" rel="stylesheet" href="/css/stylesheet.css"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/datainclude.js"></script>
+	<script type="text/javascript" src="site/assets/globals.js"></script>
 </head>
-<body>
-	<!-- Banner -->
-	<div id="wrapper">
-		<div id="holder">
-			<img class="banner" src="assets/banner.jpg" />
-		</div>
-	</div>
 
-	<!-- NavBar -->
-	<table class="navBar">
-		<tr><td><a href="index.html" class="navBarItem">Home</a></td></tr>
-		<tr><td><a href="projects.html" class="navBarItem">Projects</a></td></tr>
-		<tr><td><a href="contact.html" class="navBarItem">Contact Me</a></td></tr>
-		<tr><td><a href="resume.html" class="navBarItem">Resume</a></td></tr>
-	</table>
+<body onload="initialize()">
+	<div data-include="header"></div>
 
 	<!-- Projects -->
 	<div class="info">
-		<h1 class="header">Projects</h1>
+		<h1 class="header" id="projects"></h1>
 		
-		<a href="index.html" class="projectLink">Dhruv Bhardwaj</a>
-		<p class="linkDescript">My Personal Website</p>
-		<p class="linkDescript2">This is my own personal website I made in a few hours as a side project. I decided it'd be a good thing to do for the experience, and to put some of the languages and skills I've picked up into practice. I will be going back to this and adding updates and changes every time I'm free and learn something new, or have more ideas for it.</p>
+		<a href="/index.html" class="projectLink" id="proj1LinkName"></a>
+		<p class="linkDescript" id="proj1Title"></p>
+		<p class="linkDescript2" id="proj1Descript"></p>
 		<br />
 
-		<a href="ruphisigmakappa.com" class="projectLink">www.ruphisigmakappa.com</a>
-		<p class="linkDescript">Phi Sigma Kappa Fraternity Website</p>
-		<p class="linkDescript2">Created by four of us, all CS majors and brothers here at the Rutgers chapter of Phi Sigma Kappa. It's updated every semester now, and each of us adds our own changes and improvements whenever we want to work on it.</p>
+		<a href="/index.html" class="projectLink" id="proj2LinkName"></a>
+		<p class="linkDescript" id="proj2Title"></p>
+		<p class="linkDescript2" id="proj2Descript"></p>
 		<br />
 
-		<a href="https://ruphisigtest.github.io" class="projectLink">RUPhiSigTest.Github.IO</a>
-		<p class="linkDescript">My take on the PSK website</p>
-		<p class="linkDescript2">This is my own version of the Rutgers PSK website, created 100% by me. This was a side project I wanted to make entirely on my own so I know every step of the process and can replicate it as needed. I also added a few minor design changes, making it look generally better in my opinion.</p>
+		<a href="/index.html" class="projectLink" id="proj3LinkName"></a>
+		<p class="linkDescript" id="proj3Title"></p>
+		<p class="linkDescript2" id="proj3Descript"></p>
+		<br />
 	</div>
 
 </body>
