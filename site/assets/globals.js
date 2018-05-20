@@ -1,5 +1,5 @@
-document.getElementsByClassName("home").innerHTML = "Home";
-document.getElementsByClassName("projects").innerHTML = "Projects";
-document.getElementsByClassName("contactMe").innerHTML = "Contact Me";
-document.getElementsByClassName("resume").innerHTML = "Resume";
+document.getElementById("home").innerHTML = "Home";
+document.getElementById("projects").innerHTML = "Projects";
+document.getElementById("contactMe").innerHTML = "Contact Me";
+document.getElementById("resume").innerHTML = "Resume";
 
